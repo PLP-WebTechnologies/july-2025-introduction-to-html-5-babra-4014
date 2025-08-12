@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing my skills, projects, and passion for web development with accessibility and SEO in mind.">
+    <meta name="keywords" content="Web Developer, HTML5, Accessibility, SEO, Portfolio, Projects">
+    <meta name="author" content="Your Name">
+
+    <title>Portfolio | Your Name</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header role="banner">
+        <h1>Hello, I’m Your Name 👋</h1>
+        <p>I’m a passionate web developer who loves building websites that are accessible, user-friendly, and SEO-optimized.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="About Me Section">About</a></li>
+            <li><a href="#projects" title="Projects Section">Projects</a></li>
+            <li><a href="#contact" title="Contact Me Section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="content" role="main">
+        <!-- About Section -->
+        <article id="about">
+            <header>
+                <h2>About Me</h2>
+            </header>
+            <p>Hey there! My name is Your Name, and I’m a creative problem-solver with a love for clean, functional code. I believe every user should have a smooth online experience, no matter their abilities or devices. When I’m not coding, I’m learning
+                new tech trends and experimenting with fun projects.</p>
+        </article>
+
+        <!-- Projects Section -->
+        <article id="projects">
+            <header>
+                <h2>My Projects</h2>
+            </header>
+            <section>
+                <h3>Creative Music Website</h3>
+                <p>A simple yet engaging music group website featuring our members, playlists, and a login section.
+                    <a href="https://github.com/yourusername/music-project" target="_blank">View on GitHub</a></p>
+            </section>
+            <section>
+                <h3>Portfolio Website</h3>
+                <p>This very page you’re on! Built with HTML5 semantics, accessibility features, and SEO best practices.</p>
+            </section>
+        </article>
+
+        <!-- Contact Section -->
+        <article id="contact">
+            <header>
+                <h2>Get in Touch</h2>
+            </header>
+            <p>If you’d like to collaborate or just say hello, feel free to send me a message below.</p>
+            <form action="#" method="post" aria-label="Contact form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" aria-label="Your message"></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 Your Name | Designed with ❤️ using HTML5</p>
+    </footer>
+</body>
+
+</html>
